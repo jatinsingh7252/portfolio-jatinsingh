@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title icon image  -->
+    <link rel="shortcut icon" href="photo.jpg" type="image/x-jpg" />
+    <!-- Title name -->
+    <title>Jatin Portfolio</title>
+    <!-- Import font from google font website  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS file  -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!-- Nav-bar  -->
+    <section id="home">
+      <header>
+        <nav>
+          <div class="left"><b>Jatin's Portfolio</b></div>
+          <div class="right">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is
+          <span class="purple">
+            <b>Jatin</b>
+          </span>
+          <div>and I am a passionate</div>
+          <span id="element"> </span>
+        </div>
+        <div class="rightSection">
+          <img class="imgdp" src="photo.jpg" alt="profilepic" />
+        </div>
+      </section>
+      <section class="secondSection">
+        <h1 style="font-size: 300%" class="aboutme">About me</h1>
+        <br />
+        <br />
+        <section id="about">
+          <!-- About Section  -->
+          <p class="aboutp">
+            As a dedicated web developer, I bring a potent blend of creative
+            problem-solving and technical expertise to every project. With a
+            foundation in Java, C++, Python etc I thrive in collaborative
+            environments where I can leverage my skills to craft seamless and
+            visually appealing web experiences. My commitment to staying abreast
+            of industry trends and my passion for clean, efficient code
+            underscore my pursuit of excellence in the ever-evolving landscape
+            of web development.
+          </p>
+          <br />
+          <br />
+          <br />
+        </section>
+
+        <!-- Button section -->
+        <button class="button">
+          <span
+            ><a
+              href="secondpage.html"
+              style="text-decoration: none; color: white"
+              target="_blank"
+              >Click for more details</a
+            ></span
+          >
+        </button>
+      </section>
+      <br />
+      <br />
+      <!-- Form section  -->
+      <section id="form">
+        <section class="container">
+          <header>F O R M</header>
+          <form method="post" action="get" class="form">
+            <div class="input-box">
+              <label>Full Name</label>
+              <input
+                type="text"
+                id="in-name"
+                placeholder="Enter full name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label>Email Address</label>
+              <input
+                type="text"
+                id="in_dob"
+                placeholder="Enter email address"
+                required
+              />
+            </div>
+            <div class="column">
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input
+                  type="number"
+                  id="in_phone"
+                  placeholder="Enter phone number"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <label>Birth Date</label>
+                <input
+                  type="date"
+                  id="in_dob"
+                  placeholder="Enter birth date"
+                  required
+                />
+              </div>
+            </div>
+            <div class="gender-box">
+              <h3>Gender</h3>
+              <div class="gender-option">
+                <div class="gender">
+                  <input type="radio" id="check-male" name="gender" checked />
+                  <label for="check-male">male</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-female" name="gender" />
+                  <label for="check-female">Female</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-other" name="gender" />
+                  <label for="check-other">prefer not to say</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-box message">
+              <label>Message</label>
+              <input type="text" placeholder="Enter message" required />
+            </div>
+            <div class="input-box address">
+              <label>Address</label>
+              <input type="text" placeholder="Enter street address" required />
+            </div>
+            <button>Submit</button>
+          </form>
+        </section>
+        <br /><br /><br /><br /><br /><br />
+        <br />
+        <br />
+      </section>
+
+      <!-- footer section -->
+      <section id="contact">
+        <footer class="footer">
+          <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+          </div>
+          <ul class="social-icon">
+            <li class="social-icon__item">
+              <a
+                class="social-icon__link"
+                href="https://twitter.com/btwitsjxtin"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="social-icon__item">
+              <a
+                class="social-icon__link"
+                href="https://www.linkedin.com/in/jatin-singh-59989b276/"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-icon__item">
+              <a
+                class="social-icon__link"
+                href="https://www.instagram.com/btwitsjxtin"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#home">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">About</a>
+            </li>
+          </ul>
+          <p>&copy;2023 Jatin Singh | All Rights Reserved</p>
+        </footer>
+      </section>
+      <!-- Javascript for footer work -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <!-- Javascript code for name chaning -->
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer", "Video Editor", "Web Developer"],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>

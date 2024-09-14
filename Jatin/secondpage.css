@@ -1,0 +1,194 @@
+body {
+  background-color: #FCE4D9;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar  */
+
+nav {
+  display: flex;
+  background-color: rgb(9, 9, 84);
+  font-size: x-large;
+  color: #fff;
+  margin: 0;
+  padding: 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* ACADEMIC  */
+
+.container-ad {
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.year-card1 {
+  border-radius: 10px;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  display: inline-table;
+  margin-right: 2%;
+
+}
+
+.year-card2 {
+  border-radius: 10px;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  display: inline-table;
+  margin-right: 2%;
+
+}
+
+.year-card3 {
+  border-radius: 10px;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  display: inline-table;
+  margin-right: 2%;
+
+}
+
+.year-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.year-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+/* text hover  */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation-bar {
+  display: inline-block;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.hover-underline-animation-bar:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-bar:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* skill work  */
+
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 60%;
+  background-color: #808080;
+}
+
+.SQL {
+  width: 45%;
+  background-color: rgb(0, 255, 170)
+}
+
+.XML {
+  width: 62%;
+  background-color: #433636;
+}
